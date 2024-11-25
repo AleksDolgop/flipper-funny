@@ -5,7 +5,7 @@ IMG_FILE=$(readlink -f ./)/porn_pic.jpg
 if [ -f "$IMG_FILE" ]; then
     echo "file exists"
 else 
-    wget "https://static-ca-cdn.eporner.com/gallery/Xd/TM/1prrxdCTMXd/140289-perfect-tits-perfect-tan-lines_880x660.jpg" -O $IMG_FILE
+    wget "https://raw.githubusercontent.com/AleksDolgop/flipper-funny/refs/heads/main/badusb/src/porn_pic.jpg" -O $IMG_FILE
 fi
 
 COLOR_SCHEME=$(gsettings get org.gnome.desktop.interface color-scheme)
